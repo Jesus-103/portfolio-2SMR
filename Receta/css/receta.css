@@ -1,0 +1,53 @@
+/**********************************/
+
+
+
+
+/**********************************/
+
+@font-face {
+    font-family: titulos;
+    src: url(../font/Avalen\ Rekas.ttf);
+}
+
+* {box-sizing: border-box;}     /* el width incluye el padding 
+                                el espacio en blaco lo coge
+                                de dentro del cuadro
+                                lo haré sirmpre*/
+
+@font-face {
+    font-family: texto;
+    src: url();
+}
+
+body {background-color:beige;
+        background-image: url(../img/q93kqvua1omskrrr8hjovstres-28603ddf31d3fb245c612b0f6c548c53.png);
+        background-size: 50%;}
+
+#wrapper {background-color: #caa78f;
+        width:80%;                  /* el width va en % */
+        margin: auto;
+        padding: 10%;
+        border-radius: 20px;;}
+
+h1 {border: 2px solid rgb(209, 155, 39);
+    text-align: center;
+    padding:10px 0;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+    font-family:titulo}
+
+h2 {font-family:titulo;}
+
+blockquote {border-left: 3px solid rgb(204, 154, 60);
+            font-style: italic;             /* para pone en cursiva */
+            font-weight: bold;              /* para poner en negrita */
+            background-color: #806d57;
+            padding:10px;                   /* margin y padding pequeñp */
+        }
+
+#foto {width:100%;} /* a todo el ancho de donde estas colocada, en este caso, del wrapper */
+
+dt{font-weight: bold;
+    color: rgb(95, 85, 40);
+    font-size: 1.2em;}
