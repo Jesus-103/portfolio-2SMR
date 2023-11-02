@@ -30,16 +30,16 @@ body {background-color:beige;
         padding: 10%;
         border-radius: 20px;;}
 
-h1 {border: 2px solid rgb(209, 155, 39);
+h1 {border: 2px solid rgb(238, 227, 203);
     text-align: center;
     padding:10px 0;
     border-radius: 20px;
     box-shadow: 5px 5px 5px gray;
-    font-family:titulo}
+    font-family:titulos}
 
-h2 {font-family:titulo;}
+h2 {font-family:titulos;}
 
-blockquote {border-left: 3px solid rgb(204, 154, 60);
+blockquote {border-left: 3px solid #ebdacf;
             font-style: italic;             /* para pone en cursiva */
             font-weight: bold;              /* para poner en negrita */
             background-color: #806d57;
@@ -48,6 +48,14 @@ blockquote {border-left: 3px solid rgb(204, 154, 60);
 
 #foto {width:100%;} /* a todo el ancho de donde estas colocada, en este caso, del wrapper */
 
+ol li {margin-bottom: 10px;}
+
 dt{font-weight: bold;
-    color: rgb(95, 85, 40);
+    color: #000000;
     font-size: 1.2em;}
+
+/******************************** gestión de la responsabilidad *******************/
+
+@media only screen and (width<650px) {
+    #wrapper {width: 100%;}
+}
